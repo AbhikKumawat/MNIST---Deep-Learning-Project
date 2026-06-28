@@ -1,0 +1,70 @@
+# MNIST Handwritten Digit Classification using Artificial Neural Networks (ANN)
+
+## Overview
+
+This project implements a Handwritten Digit Classification model using an Artificial Neural Network (ANN) on the MNIST dataset. The model is built using TensorFlow and Keras to recognize handwritten digits (0–9).
+
+---
+
+## Features
+
+* Built using TensorFlow and Keras
+* Data preprocessing and normalization
+* ANN-based architecture with Dense layers
+* Model training and evaluation
+* Handwritten digit prediction
+
+---
+
+## Technologies Used
+
+* Python
+* TensorFlow
+* Keras
+* NumPy
+* Matplotlib
+* Google Colab
+
+---
+
+## Dataset
+
+The project uses the **MNIST** dataset, which contains:
+
+* 60,000 training images
+* 10,000 testing images
+* 28 × 28 grayscale handwritten digit images
+* 10 output classes (digits 0–9)
+
+The dataset is loaded directly from TensorFlow:
+
+```python
+from tensorflow.keras.datasets import mnist
+```
+
+---
+
+## Model Architecture
+
+* Flatten Layer
+* Dense Layer (ReLU Activation)
+* Dense Output Layer (Softmax Activation)
+
+---
+
+## Workflow
+
+1. Load the MNIST dataset
+2. Normalize pixel values (0–255 to 0–1)
+3. Build the ANN model
+4. Train the model
+5. Evaluate model performance
+6. Predict handwritten digits
+
+---
+
+## Results
+
+The model achieves high classification accuracy on the MNIST test dataset after training.
+
+
